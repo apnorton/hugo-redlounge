@@ -453,7 +453,7 @@ hr.thin {
 
 @media (max-width: 1024px) {
 	h1.brand-title {
-		font-size: 2.5rem;
+		font-size: 2.0rem;
 	}
 	h2.brand-tagline {
 		font-size: 1.2rem;
@@ -462,9 +462,10 @@ hr.thin {
 	.header>.sidebarphoto{
 	    width:160px;
 	    height:160px;
-	    border-radius: 50%;
-	    -moz-border-radius: 50%;
-	    -webkit-border-radius: 50%;
+
+	    border-radius: 10%;
+	    -moz-border-radius: 10%;
+	    -webkit-border-radius: 10%;
 	}
 }
 
@@ -486,9 +487,9 @@ hr.thin {
     .header>.sidebarphoto{
 	    width:160px;
 	    height:160px;
-	    border-radius: 50%;
-	    -moz-border-radius: 50%;
-	    -webkit-border-radius: 50%;
+	    border-radius: 10%;
+	    -moz-border-radius: 10%;
+	    -webkit-border-radius: 10%;
 	}
 
     .sidebar {
